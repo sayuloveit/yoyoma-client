@@ -7,13 +7,15 @@ import {LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.component';
 import {
-  HomeComponent
+  HomeComponent,
+  AboutComponent
 } from './components';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
