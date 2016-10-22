@@ -6,7 +6,9 @@ import {LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components';
+import {
+  HomeComponent
+} from './components';
 
 @NgModule({
   declarations: [
